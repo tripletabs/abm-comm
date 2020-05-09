@@ -167,29 +167,3 @@ def observe():
 
 
 pycxsimulator.GUI().start(func=[initialize, observe, update])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##

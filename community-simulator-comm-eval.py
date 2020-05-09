@@ -267,32 +267,3 @@ heatmap(pc_mean_ls, ps_mean_ls, performance_array, "mean of P(connecting)", "mea
 
 heatmap(ps_mean_ls, pb_mean_ls, coverage_array, "mean of P(switching)", "mean of P(breaking)", "Heatmap of Partition Coverage", "ps-pb-cov.png")
 heatmap(ps_mean_ls, pb_mean_ls, performance_array, "mean of P(switching)", "mean of P(breaking)", "Heatmap of Partition Performance", "ps-pb-pef.png")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##

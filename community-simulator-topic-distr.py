@@ -181,68 +181,39 @@ for i in np.arange(0, timesteps):
 
 
 ### for line plot -- uncomment this block --------------------------------------
-fig,ax = plt.subplots()
-for j in range(NUM_topics):
-    curve = plt.plot(topic_count_dict[j], label = "topic" + str(j))
-
-ax.set_xlabel("timestep")
-ax.set_ylabel("number of agents")
-ax.set_title("Change of Population Size in Each Topic")
-legend()
-savefig("topic-population-linechart.png")
-show(curve)
+# fig,ax = plt.subplots()
+# for j in range(NUM_topics):
+#     curve = plt.plot(topic_count_dict[j], label = "topic" + str(j))
+#
+# ax.set_xlabel("timestep")
+# ax.set_ylabel("number of agents")
+# ax.set_title("Change of Population Size in Each Topic")
+# legend()
+# savefig("topic-population-linechart.png")
+# show(curve)
 ### ----------------------------------------------------------------------------
 
 ### for histogram -- uncomment this block --------------------------------------
-fig,ax = plt.subplots()
-for j in range(NUM_topics):
-    histogram = hist(topic_count_dict[j], label = "topic" + str(j), alpha=0.4)
-
-ax.set_xlabel("number of agents")
-ax.set_ylabel("count")
-ax.set_title("Distribution of Population Size in Each Topic")
-legend()
-savefig("topic-population-histogram.png")
-show(histogram)
+# fig,ax = plt.subplots()
+# for j in range(NUM_topics):
+#     histogram = hist(topic_count_dict[j], label = "topic" + str(j), alpha=0.4)
+#
+# ax.set_xlabel("number of agents")
+# ax.set_ylabel("count")
+# ax.set_title("Distribution of Population Size in Each Topic")
+# legend()
+# savefig("topic-population-histogram.png")
+# show(histogram)
 ### ----------------------------------------------------------------------------
 
 ### for boxplot -- uncomment this block ----------------------------------------
-fig,ax = plt.subplots()
-data = [topic_count_dict[j] for j in range(NUM_topics)]
-bp = boxplot(data)
-ax.set_xticklabels(np.arange(0,NUM_topics))
-ax.set_xlabel("topic")
-ax.set_ylabel("number of agents")
-ax.set_title("Distribution of Population Size in Each Topic")
-savefig("topic-population-boxplot.png")
-show(bp)
+# fig,ax = plt.subplots()
+# data = [topic_count_dict[j] for j in range(NUM_topics)]
+# bp = boxplot(data)
+# ax.set_xticklabels(np.arange(0,NUM_topics))
+# ax.set_xlabel("topic")
+# ax.set_ylabel("number of agents")
+# ax.set_title("Distribution of Population Size in Each Topic")
+# savefig("topic-population-boxplot.png")
+# show(bp)
 ### ----------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##
